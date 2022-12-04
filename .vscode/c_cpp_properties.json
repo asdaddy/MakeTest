@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F1", // Just a name
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_FULL_LL_DRIVER",
+                "STM32F103xB"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "d:/Electronics/dev/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                "-mcpu=cortex-m3",
+                "-mthumb"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
