@@ -106,7 +106,7 @@ int main(void)
     if (!(LL_GPIO_ReadInputPort(GPIOA)&GPIO_IDR_IDR1))
     {
     LL_GPIO_SetOutputPin(GPIOA, LL_GPIO_PIN_5);
-    LL_mDelay(100);
+    LL_mDelay(1000);
     LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_5);
     LL_mDelay(1000);
     }	
